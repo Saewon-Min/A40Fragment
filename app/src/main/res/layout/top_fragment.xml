@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <!--
+    TOP 영역이 레이아웃으로 화면 전환을 위한 버튼으로 구성됨
+    3개의 버튼이 동일한 크기로 출력되도록 가중치를 적용하고 있다.
+    -->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="화면1"
+        android:id="@+id/btnFristFragment"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="화면2"
+        android:id="@+id/btnSecondFragment"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="화면3"
+        android:id="@+id/btnThirdFragment"
+        android:layout_weight="1" />
+
+
+
+</LinearLayout>
